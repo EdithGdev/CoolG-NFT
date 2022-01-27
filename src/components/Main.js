@@ -29,9 +29,9 @@ const Main = ( {selectedPunk, punkListData}) => {
                     </div>
                 </div>
                 <div className='punkDetails' >
-                    <div className='title'>Testtt
+                    <div className='title'>{activePunk.name}
                     </div>
-                    <span className='itemNumber'>.#3</span>
+                    <span className='itemNumber'>.#{activePunk.id}</span>
                 </div>
                 <div className='ownerDetails'>
                         <div className='ownerNameAndHandle'>

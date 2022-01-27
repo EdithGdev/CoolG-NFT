@@ -9,7 +9,7 @@ const Punklist = ({ punkListData, setSelectedPunk }) => {
 
                 <div onClick={() => setSelectedPunk(punk.token_id)}>
                     <CollectionCard
-                    id={punk.token_id}
+                    id={punk.id}
                     name={punk.name}
                     traits={punk.traits}
                     image={punk.image_original_url}
