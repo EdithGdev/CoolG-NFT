@@ -28,15 +28,20 @@ const Main = ( {selectedPunk, punkListData}) => {
                         />
                     </div>
                 </div>
+                <div className='detailContainer'>
                 <div className='punkDetails' >
                     <div className='title'>{activePunk.name}
-                    </div>
                     <span className='itemNumber'>.#{activePunk.id}</span>
+                    </div>
+                    
                 </div>
                 <div className='ownerDetails'>
                         <div className='ownerNameAndHandle'>
+                            <img className='ownerProfile' src="https://htmlcolorcodes.com/assets/images/colors/pastel-pink-color-solid-background-1920x1080.png" />
+                            <div className='walletID'>
                             <div>0x536A5D3e7a8603fCd53Beac71a8C6A3081c0dD51</div>
-                            <div className='ownerHandle'>@EdithG</div>
+                            <a href='https://wwww.google.com'>@EdithG</a>
+                            </div>
                         </div>
                         <div className='ownerLink'>
                             <img src={instagramLogo} alt=''/>
@@ -46,6 +51,7 @@ const Main = ( {selectedPunk, punkListData}) => {
                         </div>
                         <div className='ownerLink'>
                             <img src={moreIcon} alt=''/>
+                        </div>
                         </div>
                 </div>
             </div>         
