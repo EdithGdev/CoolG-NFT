@@ -49,6 +49,7 @@
 .title {
     font-size: 96px;
     font-weight: 500;
+    background-color: tomato;
 }
 
 .itemNumber {
@@ -91,6 +92,7 @@
     align-items: center;
     flex: 1;
     width: 100%;
+    background-color: thistle;
 }
 
 .ownerNameAndHandle {
