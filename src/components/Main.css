@@ -41,6 +41,7 @@
     color: #fff;
     width: 100%;
 
+
 }
 
 .ownerNameAndHandle img{
@@ -85,6 +86,7 @@
 .ownerImageContainer > img {
     height: 100%;
     width: 100%;
+    background-color: turquoise;
 }
 
 .ownerDetails {
